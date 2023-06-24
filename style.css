@@ -14,12 +14,14 @@ h2{
   margin:10px auto;
 }
 .btn-blue {
-  margin-top: 600px;
   font-size: 16px;
   background-color: #6B72E1;
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
+  display: inline-block;
+  width: 200px;
+  margin: 20px 20px;
 }
 .btn-blue:hover{
   background-color:black;
@@ -80,7 +82,10 @@ p{
   padding-left: 0px;
   display:flex;
   justify-content: center;
-  margin-top: 8px;
+  margin: 0px;
+}
+ul.list-inline{
+  font-size: 40px;
 }
 
 li{
